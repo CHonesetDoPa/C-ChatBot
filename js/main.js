@@ -13,7 +13,7 @@ var app = new Vue({
 	},
 	methods: {
 		getThesaurus: function() {
-			axios.get('https://raw.githubusercontent.com/Kyomotoi/AnimeThesaurus/main/data.json')
+			axios.get('https://github.com/CHonesetDoPa/C-ChatBot/blob/main/data.json')
 				.then((response) => this.thesaurus = response.data)
 		},
 		send: function() {
