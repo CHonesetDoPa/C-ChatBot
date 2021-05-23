@@ -4,7 +4,7 @@ var app = new Vue({
 		return {
 			messageList: [],
 			inputBox: '',
-			botNick: '赤岛酱',
+			botNick: 'CH',
 			thesaurus: '',
 			botAvatar: 'C.png',
 			myAvatar: 'A.jpg'
