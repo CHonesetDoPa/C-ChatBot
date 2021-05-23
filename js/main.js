@@ -13,7 +13,7 @@ var app = new Vue({
 	},
 	methods: {
 		getThesaurus: function() {
-			axios.get('https://github.com/CHonesetDoPa/C-ChatBot/blob/main/data.json')
+			axios.get('https://cchatbot.vercel.app/data.json')
 				.then((response) => this.thesaurus = response.data)
 		},
 		send: function() {
